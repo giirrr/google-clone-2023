@@ -1,5 +1,6 @@
 const title = document.querySelector(".hello:first-child h1");
 
-console.dir(title);
-
-title.style.color = "blue";
+function handTitleClick() {
+  title.style.color = "tomato";
+}
+title.addEventListener("click", handTitleClick);
